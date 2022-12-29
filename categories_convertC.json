@@ -1,0 +1,978 @@
+[
+    {
+        "id": 954,
+        "category": "치킨무",
+        "supercategory": "A01",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 953,
+        "category": "각설탕",
+        "supercategory": "A01",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 957,
+        "category": "황토벽돌",
+        "supercategory": "A02",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 956,
+        "category": "메주",
+        "supercategory": "A02",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 962,
+        "category": "삶은 메추리알",
+        "supercategory": "A04",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 963,
+        "category": "통마늘",
+        "supercategory": "A04",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 965,
+        "category": "국수 소면",
+        "supercategory": "A05",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 966,
+        "category": "실타래",
+        "supercategory": "A05",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 968,
+        "category": "시력검사 가리개",
+        "supercategory": "A06",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 969,
+        "category": "숟가락",
+        "supercategory": "A06",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 971,
+        "category": "도토리묵",
+        "supercategory": "A07",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 972,
+        "category": "비누",
+        "supercategory": "A07",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 974,
+        "category": "백설기",
+        "supercategory": "A08",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 975,
+        "category": "매직블럭",
+        "supercategory": "A08",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 978,
+        "category": "빨대 세척 솔",
+        "supercategory": "A09",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 977,
+        "category": "귀이개",
+        "supercategory": "A09",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 980,
+        "category": "커피 원두",
+        "supercategory": "A10",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 981,
+        "category": "조리퐁 과자",
+        "supercategory": "A10",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 983,
+        "category": "파인애플 통조림",
+        "supercategory": "A11",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 984,
+        "category": "폴리우레탄 고무 패스너 와셔",
+        "supercategory": "A11",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 986,
+        "category": "오징어 실채",
+        "supercategory": "A12",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 987,
+        "category": "갈색 케이블타이",
+        "supercategory": "A12",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 989,
+        "category": "주사위",
+        "supercategory": "A13",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 990,
+        "category": "당구 초크",
+        "supercategory": "A13",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 992,
+        "category": "말린 지네",
+        "supercategory": "A14",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 993,
+        "category": "핀 헤더",
+        "supercategory": "A14",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 995,
+        "category": "오레오시리얼",
+        "supercategory": "A15",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 996,
+        "category": "폐타이어",
+        "supercategory": "A15",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 999,
+        "category": "튜브",
+        "supercategory": "A16",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 998,
+        "category": "도넛",
+        "supercategory": "A16",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1001,
+        "category": "먹",
+        "supercategory": "A17",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1002,
+        "category": "양갱",
+        "supercategory": "A17",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1005,
+        "category": "빨래판",
+        "supercategory": "A18",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1004,
+        "category": "쑥절편",
+        "supercategory": "A18",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1007,
+        "category": "사무용자석",
+        "supercategory": "A19",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1008,
+        "category": "스탬프",
+        "supercategory": "A19",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1010,
+        "category": "네일아트 팁",
+        "supercategory": "A20",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1011,
+        "category": "머리핀",
+        "supercategory": "A20",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1014,
+        "category": "빼빼로",
+        "supercategory": "A21",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1013,
+        "category": "향",
+        "supercategory": "A21",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1016,
+        "category": "악력기",
+        "supercategory": "A22",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1017,
+        "category": "마늘다지기",
+        "supercategory": "A22",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1019,
+        "category": "배개속편백나무칩",
+        "supercategory": "A23",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1020,
+        "category": "마시멜로우",
+        "supercategory": "A23",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1022,
+        "category": "송편",
+        "supercategory": "A24",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1023,
+        "category": "박하사탕",
+        "supercategory": "A24",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1025,
+        "category": "핫팩",
+        "supercategory": "A25",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1026,
+        "category": "마우스",
+        "supercategory": "A25",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1028,
+        "category": "샤워타올",
+        "supercategory": "A26",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1029,
+        "category": "맛기차콘",
+        "supercategory": "A26",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1032,
+        "category": "왕고무링",
+        "supercategory": "A27",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1031,
+        "category": "꽈배기",
+        "supercategory": "A27",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1034,
+        "category": "마사지볼",
+        "supercategory": "A28",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1035,
+        "category": "조랭이떡",
+        "supercategory": "A28",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1037,
+        "category": "글루건심",
+        "supercategory": "A29",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1038,
+        "category": "빨대",
+        "supercategory": "A29",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1040,
+        "category": "분필",
+        "supercategory": "A30",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1041,
+        "category": "수수깡",
+        "supercategory": "A30",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1043,
+        "category": "목탁",
+        "supercategory": "A31",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1044,
+        "category": "케틀벨",
+        "supercategory": "A31",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1046,
+        "category": "기와",
+        "supercategory": "A32",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1047,
+        "category": "목배개",
+        "supercategory": "A32",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1050,
+        "category": "한쪽면봉",
+        "supercategory": "A33",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1049,
+        "category": "성냥",
+        "supercategory": "A33",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1052,
+        "category": "고무줄",
+        "supercategory": "A34",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1053,
+        "category": "중화면",
+        "supercategory": "A34",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1055,
+        "category": "좀약",
+        "supercategory": "A35",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1056,
+        "category": "바둑알",
+        "supercategory": "A35",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1058,
+        "category": "알약",
+        "supercategory": "A36",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1059,
+        "category": "검은콩",
+        "supercategory": "A36",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1061,
+        "category": "마사지건",
+        "supercategory": "A37",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1062,
+        "category": "헤어드라이어",
+        "supercategory": "A37",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1064,
+        "category": "물감",
+        "supercategory": "A38",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1065,
+        "category": "립밤",
+        "supercategory": "A38",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1067,
+        "category": "시가",
+        "supercategory": "A39",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1068,
+        "category": "크레파스",
+        "supercategory": "A39",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1070,
+        "category": "휴대용 종아리 마사지기",
+        "supercategory": "A40",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1071,
+        "category": "푸시업바",
+        "supercategory": "A40",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1073,
+        "category": "레몬",
+        "supercategory": "A41",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1074,
+        "category": "소프트럭비공",
+        "supercategory": "A41",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1076,
+        "category": "스펀지",
+        "supercategory": "A42",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1077,
+        "category": "무지개떡",
+        "supercategory": "A42",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1079,
+        "category": "장식별",
+        "supercategory": "A43",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1080,
+        "category": "불가사리",
+        "supercategory": "A43",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1083,
+        "category": "테니스라켓",
+        "supercategory": "A44",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1082,
+        "category": "전기파리채",
+        "supercategory": "A44",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1086,
+        "category": "그라인딩 디스크",
+        "supercategory": "A45",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1085,
+        "category": "레코드판",
+        "supercategory": "A45",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1088,
+        "category": "캔들",
+        "supercategory": "A46",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1089,
+        "category": "계란",
+        "supercategory": "A46",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1092,
+        "category": "이온음료",
+        "supercategory": "A47",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1091,
+        "category": "차량워셔액",
+        "supercategory": "A47",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1095,
+        "category": "샤워기",
+        "supercategory": "A48",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1094,
+        "category": "손거울",
+        "supercategory": "A48",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1098,
+        "category": "목배개",
+        "supercategory": "A49",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1097,
+        "category": "킬바사소세지",
+        "supercategory": "A49",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1101,
+        "category": "개껌",
+        "supercategory": "A50",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1100,
+        "category": "덤벨",
+        "supercategory": "A50",
+        "similarities": [
+            "shape",
+            "texture"
+        ]
+    },
+    {
+        "id": 1104,
+        "category": "이어플러그",
+        "supercategory": "A51",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    },
+    {
+        "id": 1103,
+        "category": "당근",
+        "supercategory": "A51",
+        "similarities": [
+            "shape",
+            "texture",
+            "color"
+        ]
+    }
+]
