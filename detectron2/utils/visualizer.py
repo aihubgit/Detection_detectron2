@@ -8,6 +8,8 @@ import cv2
 import matplotlib as mpl
 import matplotlib.colors as mplc
 import matplotlib.figure as mplfigure
+import matplotlib
+import matplotlib.font_manager as fm
 import pycocotools.mask as mask_util
 import torch
 from matplotlib.backends.backend_agg import FigureCanvasAgg
@@ -207,7 +209,7 @@ class _PanopticPrediction:
         assert (
             len(empty_ids) == 1
         ), ">1 ids corresponds to no labels. This is currently not supported"
-        return (self._seg != empty_ids[0]).numpy().astype(bool)
+        return (self._seg != empty_ids[0]).numpy().astype(np.bool)
 
     def semantic_masks(self):
         for sid in self._seg_ids:
@@ -215,14 +217,14 @@ class _PanopticPrediction:
             if sinfo is None or sinfo["isthing"]:
                 # Some pixels (e.g. id 0 in PanopticFPN) have no instance or semantic predictions.
                 continue
-            yield (self._seg == sid).numpy().astype(bool), sinfo
+            yield (self._seg == sid).numpy().astype(np.bool), sinfo
 
     def instance_masks(self):
         for sid in self._seg_ids:
             sinfo = self._sinfo.get(sid)
             if sinfo is None or not sinfo["isthing"]:
                 continue
-            mask = (self._seg == sid).numpy().astype(bool)
+            mask = (self._seg == sid).numpy().astype(np.bool)
             if mask.sum() > 0:
                 yield mask, sinfo
 
@@ -873,18 +875,21 @@ class Visualizer:
         """
         if not font_size:
             font_size = self._default_font_size
-
+        fm.get_fontconfig_fonts()
+        font_location = "/home/smartcoop/anaconda3/envs/test_detectron2/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/NanumGothic-Bold.ttf"
+        font_name = fm.FontProperties(fname=font_location).get_name()
+        fa = matplotlib.rc('font', family=font_name)
+        
         # since the text background is dark, we don't want the text to be dark
         color = np.maximum(list(mplc.to_rgb(color)), 0.2)
         color[np.argmax(color)] = max(0.8, np.max(color))
-
         x, y = position
         self.output.ax.text(
             x,
             y,
             text,
             size=font_size * self.output.scale,
-            family="sans-serif",
+            family="NanumGothic",
             bbox={"facecolor": "black", "alpha": 0.8, "pad": 0.7, "edgecolor": "none"},
             verticalalignment="top",
             horizontalalignment=horizontal_alignment,
