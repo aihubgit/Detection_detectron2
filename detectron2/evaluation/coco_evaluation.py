@@ -163,8 +163,23 @@ class COCOEvaluator(DatasetEvaluator):
             outputs: the outputs of a COCO model. It is a list of dicts with key
                 "instances" that contains :class:`Instances`.
         """
+
+        
+        file_path2 = os.path.join(self._output_dir, "image.json")
+        ay = []
         for input, output in zip(inputs, outputs):
             prediction = {"image_id": input["image_id"]}
+            fn = input["file_name"].split("/")
+            fn = fn[-1]
+            test = {"image_id": input["image_id"],
+                    "height": input["height"],
+                    "width": input["width"],
+                    "file_name": fn
+                    #"file_name": input["file_name"]
+                    }
+            test2 = test
+            ay.append(test2)
+
 
             if "instances" in output:
                 instances = output["instances"].to(self._cpu_device)
@@ -173,6 +188,18 @@ class COCOEvaluator(DatasetEvaluator):
                 prediction["proposals"] = output["proposals"].to(self._cpu_device)
             if len(prediction) > 1:
                 self._predictions.append(prediction)
+
+        
+        oldData = []
+        if os.path.exists(file_path2):
+            with PathManager.open(file_path2, 'r') as f:
+                oldData = json.load(f)
+
+        with PathManager.open(file_path2, 'w') as f:
+            ay = oldData + ay
+            json.dump(ay, f)
+            f.flush()
+        
 
     def evaluate(self, img_ids=None):
         """
@@ -373,6 +400,7 @@ class COCOEvaluator(DatasetEvaluator):
             results_per_category.append(("{}".format(name), float(ap * 100)))
 
         # tabulate it
+        #change
         N_COLS = min(6, len(results_per_category) * 2)
         results_flatten = list(itertools.chain(*results_per_category))
         results_2d = itertools.zip_longest(*[results_flatten[i::N_COLS] for i in range(N_COLS)])

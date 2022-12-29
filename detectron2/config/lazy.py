@@ -343,32 +343,17 @@ class LazyConfig:
                     )
             OmegaConf.update(cfg, key, value, merge=True)
 
-        try:
-            from hydra.core.override_parser.overrides_parser import OverridesParser
+        from hydra.core.override_parser.overrides_parser import OverridesParser
 
-            has_hydra = True
-        except ImportError:
-            has_hydra = False
-
-        if has_hydra:
-            parser = OverridesParser.create()
-            overrides = parser.parse_overrides(overrides)
-            for o in overrides:
-                key = o.key_or_group
-                value = o.value()
-                if o.is_delete():
-                    # TODO support this
-                    raise NotImplementedError("deletion is not yet a supported override")
-                safe_update(cfg, key, value)
-        else:
-            # Fallback. Does not support all the features and error checking like hydra.
-            for o in overrides:
-                key, value = o.split("=")
-                try:
-                    value = eval(value, {})
-                except NameError:
-                    pass
-                safe_update(cfg, key, value)
+        parser = OverridesParser.create()
+        overrides = parser.parse_overrides(overrides)
+        for o in overrides:
+            key = o.key_or_group
+            value = o.value()
+            if o.is_delete():
+                # TODO support this
+                raise NotImplementedError("deletion is not yet a supported override")
+            safe_update(cfg, key, value)
         return cfg
 
     @staticmethod
